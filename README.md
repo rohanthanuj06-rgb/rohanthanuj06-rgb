@@ -97,24 +97,28 @@ I enjoy learning new concepts quickly, understanding how systems work, and turni
 
 ---
 
-## `03` — Featured Projects
+## `03` — Completed Projects
 
-A selection of my existing public repositories. Each project represents a different part of my development journey.
+A collection of projects published in my GitHub repositories, demonstrating my experience with programming, application development, cloud computing, and system design.
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🔐 Caesar Cipher
+### ☁️ CloudSentinel
 
-**Python · Cryptography Fundamentals**
+**Cloud Computing · Docker · Python**
 
-A text encoding and decoding program based on the Caesar cipher, exploring character shifting, string manipulation, and the fundamentals of classical cryptography.
+An intelligent service monitoring and self-recovery platform designed to monitor Docker-based workloads, detect unhealthy services, evaluate health status, and support automated recovery without requiring a separate virtual machine.
 
-**Concepts:** Python, strings, encryption logic.
+**Key features**
+- Service health monitoring
+- Failure detection and health scoring
+- Automated container recovery
+- Recovery verification and incident logs
 
-<a href="https://github.com/rohanthanuj06-rgb/CEASER-CIPHER">
-  <img src="https://img.shields.io/badge/VIEW%20REPOSITORY-00C2FF?style=for-the-badge&logo=github&logoColor=black" alt="View Caesar Cipher repository"/>
+<a href="https://github.com/rohanthanuj06-rgb/CLOUD_SENTINEL">
+  <img src="https://img.shields.io/badge/VIEW%20REPOSITORY-00C2FF?style=for-the-badge&logo=github&logoColor=black" alt="View CloudSentinel repository"/>
 </a>
 
 </td>
@@ -124,9 +128,13 @@ A text encoding and decoding program based on the Caesar cipher, exploring chara
 
 **Application Development**
 
-A stock management project focused on organizing inventory records and exploring the logic behind maintaining and managing stock information.
+A stock management application focused on organizing inventory records and managing stock-related operations.
 
-**Concepts:** Application logic, data organization, inventory workflows.
+**Key concepts**
+- Inventory organization
+- Product and stock records
+- Data management
+- Inventory workflows
 
 <a href="https://github.com/rohanthanuj06-rgb/STOCK_MANAGEMENT_SYSTEM">
   <img src="https://img.shields.io/badge/VIEW%20REPOSITORY-00C2FF?style=for-the-badge&logo=github&logoColor=black" alt="View Stock Management System repository"/>
@@ -137,11 +145,26 @@ A stock management project focused on organizing inventory records and exploring
 <tr>
 <td width="50%" valign="top">
 
+### 🔐 Caesar Cipher
+
+**Python · Cryptography Fundamentals**
+
+A text encoding and decoding program based on the Caesar cipher, exploring character shifting, string manipulation, and classical cryptography.
+
+**Concepts:** Python, strings, encryption logic.
+
+<a href="https://github.com/rohanthanuj06-rgb/CEASER-CIPHER">
+  <img src="https://img.shields.io/badge/VIEW%20REPOSITORY-00C2FF?style=for-the-badge&logo=github&logoColor=black" alt="View Caesar Cipher repository"/>
+</a>
+
+</td>
+<td width="50%" valign="top">
+
 ### 🅿️ Smart Parking System
 
 **Smart Systems · Automation**
 
-A smart parking project exploring how software can help organize parking operations and make parking management more efficient.
+A smart parking project exploring how software can help organize parking operations and improve parking management.
 
 **Concepts:** System design, application logic, smart automation.
 
@@ -150,6 +173,8 @@ A smart parking project exploring how software can help organize parking operati
 </a>
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### 🔌 IoT Project Sample Codings
@@ -165,6 +190,17 @@ A collection of sample code for exploring IoT-related programming concepts and l
 </a>
 
 </td>
+<td width="50%" valign="top">
+
+### 🚀 More Projects
+
+**Continuous Development**
+
+I'm continuing to build and publish projects across AI, cloud computing, software engineering, IoT, and data analytics.
+
+**Focus:** Practical implementation, documentation, testing, and continuous improvement.
+
+</td>
 </tr>
 </table>
 
@@ -172,7 +208,7 @@ A collection of sample code for exploring IoT-related programming concepts and l
 
 ## `04` — Selected Project Work & Innovation
 
-Beyond my public repositories, I have worked on or explored projects that connect software engineering with real-world challenges.
+Alongside my public repositories, I work on academic projects and prototypes that connect software engineering with real-world challenges.
 
 <table>
 <tr>
@@ -182,7 +218,7 @@ Beyond my public repositories, I have worked on or explored projects that connec
 
 **SIH PS 26018**
 
-An intelligent land-record digitization and validation system concept for processing legacy documents using OCR, computer vision, NLP, confidence scoring, duplicate detection, and human verification.
+An AI-powered land-record digitization and validation system for processing legacy documents using OCR, computer vision, NLP, confidence scoring, duplicate detection, and human verification.
 
 **Focus areas**
 - Document intelligence
@@ -210,21 +246,6 @@ A simulated smart cold-storage concept for vegetables in the North Eastern Regio
 <tr>
 <td width="50%" valign="top">
 
-### ☁️ CloudSentinel
-
-**Cloud Computing & Virtualization**
-
-A Docker-based service monitoring and self-recovery platform designed to treat containerized services as VM-like monitored workloads without requiring a separate virtual machine.
-
-**Planned capabilities**
-- CPU, memory, disk and health monitoring
-- Failure detection and health scoring
-- Automated container recovery
-- Recovery verification and incident logs
-
-</td>
-<td width="50%" valign="top">
-
 ### 🚗 Predictive Tyre Monitoring System
 
 **TPMS · Embedded Systems**
@@ -238,23 +259,23 @@ A predictive tyre-monitoring concept using pressure and temperature trends to id
 - Dashboard alerts and status visualization
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### 🚀 Space Mission Intelligence & Analytics
 
 **Exploratory Data Analysis**
 
-A space-program-inspired analytics concept for exploring historical launch records, space agencies, countries, launch sites, payloads, mission outcomes, and reliability patterns.
+A space-program-inspired analytics project for exploring historical launch records, space agencies, countries, launch sites, payloads, mission outcomes, and reliability patterns.
 
-**Planned capabilities**
+**Focus areas**
 - Interactive dashboards and visualizations
 - Launch success and risk analysis
 - Clustering and anomaly detection
 - Mission trends and forecasting
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### 🤖 Generative AI & Intelligent Applications
@@ -267,19 +288,28 @@ An area of ongoing interest focused on applying AI to practical software problem
 - AI-assisted application development
 - Document and information processing
 - Workflow automation
-- Responsible, practical AI integration
+- Practical AI integration
+
+</td>
+<td width="50%" valign="top">
+
+### 💡 Future Innovations
+
+**Research · Prototyping · Engineering**
+
+Exploring ideas that combine AI, cloud computing, cybersecurity, analytics, and automation to solve practical problems.
+
+**Focus areas**
+- Intelligent systems
+- Software architecture
+- Automation and monitoring
+- Real-world problem-solving
 
 </td>
 </tr>
 </table>
 
-<div align="center">
-
-**Current direction:** stronger software fundamentals → practical projects → intelligent systems → production-minded engineering.
-
-</div>
-
-*Project status varies: some represent completed or demonstrated prototypes, while others are planned or evolving concepts. Detailed source links will be added as the corresponding repositories become public.*
+*Project status varies: this section includes academic work, prototypes, ongoing development, and exploratory concepts. The Completed Projects section above links to public repositories.*
 
 ---
 
@@ -297,7 +327,7 @@ My internship experience focused on Generative AI and gave me an opportunity to 
 - Explored how AI concepts can be applied to software and problem-solving tasks.
 - Continued building technical confidence through hands-on learning.
 
-*Add specific deliverables, technologies, and measurable outcomes here when you are ready to showcase them.*
+*Specific deliverables and measurable outcomes can be added as appropriate.*
 
 ---
 
@@ -323,7 +353,7 @@ My internship experience focused on Generative AI and gave me an opportunity to 
 
 </div>
 
-> **Note:** These cards rely on external services and their caches, so they may occasionally load slowly or display incomplete data. Language cards measure repository code composition, not personal proficiency.
+> **Note:** These cards depend on external services and their caches, so they may occasionally load slowly or display incomplete data. Language cards measure repository code composition, not personal proficiency.
 
 ---
 
