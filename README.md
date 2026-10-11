@@ -27,7 +27,7 @@
   <a href="https://github.com/rohanthanuj06-rgb">
     <img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github" alt="GitHub"/>
   </a>
-  <a href="TODO_LINKEDIN_URL">
+  <a href="www.linkedin.com/in/rohan-thanuj-9b451b352">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
   <a href="TODO_PORTFOLIO_URL">
