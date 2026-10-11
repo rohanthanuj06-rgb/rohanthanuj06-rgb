@@ -1,195 +1,407 @@
 
-<!-- =========================================================
-     PREMIUM GITHUB PROFILE README
-     Replace every TODO placeholder before publishing.
-========================================================== -->
+<!--
+╔══════════════════════════════════════════════════════════════╗
+║                  ROHAN THANUJ — PROFILE README               ║
+║               Midnight / Electric Blue Edition              ║
+╚══════════════════════════════════════════════════════════════╝
+-->
 
-<!-- 1. INTRO -->
-<h1 align="center">Hi, I'm Rohan Thanuj 👋</h1>
+<!-- ======================= HERO SECTION ======================= -->
 
-<h3 align="center">
-  B.Tech IT Student | Python Developer | AI Enthusiast
-</h3>
+<div align="center">
 
-<p align="center">
-  Building practical software solutions with Python, AI, and intelligent automation.
-</p>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:050816,35:0B1F45,70:123B76,100:00C2FF&text=ROHAN%20THANUJ&fontColor=FFFFFF&fontSize=48&fontAlignY=38&desc=SOFTWARE%20DEVELOPMENT%20%7C%20AI%20%7C%20INNOVATION&descAlignY=58&descSize=15&animation=fadeIn" width="100%" alt="Rohan Thanuj — Developer Portfolio Banner" />
 
-<!-- 2. TYPING ANIMATION BANNER -->
-<p align="center">
-  <img
-    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=Python+Developer;Exploring+Generative+AI;Building+Intelligent+Applications;Learning+by+Building"
-    alt="Typing animation"
-  />
-</p>
+<br/>
 
-<p align="center">
-  <a href="https://github.com/rohanthanuj06-rgb">
-    <img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github" alt="GitHub"/>
-  </a>
-  <a href="www.linkedin.com/in/rohan-thanuj-9b451b352">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="TODO_PORTFOLIO_URL">
-    <img src="https://img.shields.io/badge/Portfolio-Visit-6C5CE7?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/>
-  </a>
-</p>
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=2800&pause=850&color=00C2FF&center=true&vCenter=true&width=750&lines=Third-Year+B.Tech+Information+Technology+Student;Aspiring+Software+Developer;Python+%7C+C+%7C+Java;Exploring+AI%2C+Cloud+Computing+%26+Cybersecurity;Learn+Fast.+Build+Smart.+Keep+Evolving." alt="Animated developer introduction" />
+</a>
 
----
+<br/><br/>
 
-<!-- 3. ABOUT ME -->
-## 👨‍💻 About Me
+<a href="https://github.com/rohanthanuj06-rgb">
+  <img src="https://img.shields.io/badge/GitHub-rohanthanuj06--rgb-0D1117?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="GitHub profile"/>
+</a>
+<a href="https://www.linkedin.com/in/rohan-thanuj-9b451b352">
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+</a>
+<a href="https://leetcode.com/u/Rohan_1316/">
+  <img src="https://img.shields.io/badge/LeetCode-Practice-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"/>
+</a>
+<a href="https://www.hackerrank.com/profile/rohanthanuj06">
+  <img src="https://img.shields.io/badge/HackerRank-Profile-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white" alt="HackerRank"/>
+</a>
 
-- 🎓 Pursuing a B.Tech in Information Technology.
-- 🐍 Interested in Python development and problem-solving.
-- 🤖 Exploring Generative AI and intelligent application development.
-- 🛠️ Enjoy building practical, project-based software solutions.
-- 🌱 Currently learning: **TODO: your current learning goal**.
-- 🎯 Career goal: **TODO: your target role or specialization**.
-- 📫 Reach me: **TODO: public professional contact method**.
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=rohanthanuj06-rgb&style=flat-square&color=00C2FF&label=PROFILE+VIEWS" alt="Profile views"/>
+
+</div>
 
 ---
 
-<!-- 4. TECH STACK -->
-## 🧰 Tech Stack
+<!-- ======================= ABOUT ME ======================= -->
+
+## `01` — About Me
+
+<img align="right" alt="Coding animation" width="270" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"/>
+
+Hey there! I'm **Rohan Thanuj**, a third-year **B.Tech Information Technology** student with a passion for software development, intelligent systems, and solving real-world problems through technology.
+
+I enjoy learning new concepts quickly, understanding how systems work, and turning ideas into practical applications. For me, development is more than writing code — it's about thinking logically, experimenting, solving problems, and continuously improving.
+
+- 🎓 **Education:** B.Tech in Information Technology
+- 📊 **Current CGPA:** 7.88 / 10
+- 💻 **Core languages:** Python, C, Java
+- 🧠 **Interests:** Software engineering, AI, Generative AI, cybersecurity
+- ☁️ **Exploring:** Cloud computing, Docker, automation, and intelligent monitoring
+- 🔌 **Project interests:** IoT, predictive systems, data analytics, and computer vision
+- 🚀 **Mindset:** Learn quickly, build consistently, improve continuously
+
+<br clear="right"/>
+
+> My goal is to become a skilled software developer who combines strong fundamentals, creative thinking, and practical engineering to build reliable and meaningful technology.
+
+---
+
+## `02` — My Technical Universe
+
+<div align="center">
 
 ### Programming Languages
 
-<p>
-  <img src="https://skillicons.dev/icons?i=python,c,java" alt="Python, C and Java"/>
-</p>
+<img src="https://skillicons.dev/icons?i=python,c,java&theme=dark" alt="Python, C and Java"/>
 
-### Tools & Platforms
+### Development Tools & Platforms
 
-<p>
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,docker" alt="Git, GitHub, VS Code and Docker"/>
-</p>
+<img src="https://skillicons.dev/icons?i=git,github,vscode,docker,linux&theme=dark" alt="Git, GitHub, VS Code, Docker and Linux"/>
 
-### AI, Data & Development
+### Technologies I'm Exploring
 
-<!-- Keep only technologies you have actually used. -->
-<p>
-  <img src="https://skillicons.dev/icons?i=html,css,js,mysql,fastapi" alt="HTML, CSS, JavaScript, MySQL and FastAPI"/>
-</p>
+<img src="https://skillicons.dev/icons?i=flask,fastapi,html,css,mysql&theme=dark" alt="Flask, FastAPI, HTML, CSS and MySQL"/>
 
-**Currently exploring:** TODO: Generative AI / Machine Learning /
-Cybersecurity / Cloud Computing
+</div>
 
----
+| Area | Focus |
+|:--|:--|
+| Programming | Python, C, Java, problem-solving fundamentals |
+| Software development | Application logic, debugging, modular development |
+| AI & intelligent systems | Generative AI, AI-assisted applications, document intelligence |
+| Cloud & DevOps | Docker, service monitoring, health checks, recovery workflows |
+| IoT & embedded concepts | Sensor-based systems, monitoring, alerts, simulation |
+| Data & analytics | Data exploration, visualization, mission analytics |
+| Developer tools | Git, GitHub, VS Code, Antigravity |
 
-<!-- 5. CURRENT PROJECTS -->
-## 🚀 Featured Projects
-
-<!-- Update project names and URLs to match real repositories. -->
-
-### 1. AI-Powered Land Record Digitization & Validation
-
-An intelligent document-processing system concept for extracting,
-validating, and organizing land-record information from scanned
-documents using OCR, AI, and human verification.
-
-**Focus:** Document Intelligence · OCR · Validation · Audit Trails
-
-🔗 [View Repository](TODO_LAND_RECORDS_REPOSITORY_URL)
-
-### 2. CloudSentinel — Intelligent Service Health Monitoring
-
-A Docker-based monitoring platform concept that detects unhealthy
-services, evaluates system health, and demonstrates automated
-recovery workflows.
-
-**Focus:** Docker · Python · Monitoring · Failure Detection
-
-🔗 [View Repository](TODO_CLOUDSENTINEL_REPOSITORY_URL)
-
-### 3. AI-Based Career Guidance & Roadmap System
-
-A student-focused application concept for career recommendations,
-skill-gap analysis, and personalized learning roadmaps.
-
-**Focus:** AI · Career Recommendations · Learning Roadmaps
-
-🔗 [View Repository](TODO_CAREER_PROJECT_REPOSITORY_URL)
-
-### 4. Python Encoding & Decoding
-
-A Python project demonstrating text encoding and decoding with a
-Caesar cipher.
-
-**Focus:** Python · String Manipulation · Cryptography Basics
-
-🔗 [View Repository](https://github.com/rohanthanuj06-rgb/ENCODING-AND-DECODING)
+*Skill icons represent technologies I use or explore; they are not a claim of expert-level proficiency in every tool.*
 
 ---
 
-<!-- 6. GITHUB STATS -->
-## 📊 GitHub Stats
+## `03` — Featured Projects
 
-<p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=rohanthanuj06-rgb&show_icons=true&theme=tokyonight&hide_border=true"
-    alt="GitHub statistics"
-  />
-</p>
+A selection of my existing public repositories. Each project represents a different part of my development journey.
 
-<p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=rohanthanuj06-rgb&layout=compact&theme=tokyonight&hide_border=true"
-    alt="Most used languages"
-  />
-</p>
+<table>
+<tr>
+<td width="50%" valign="top">
 
-<!-- Optional streak card -->
-<p align="center">
-  <img
-    src="https://streak-stats.demolab.com?user=rohanthanuj06-rgb&theme=tokyonight&hide_border=true"
-    alt="GitHub contribution streak"
-  />
-</p>
+### 🔐 Caesar Cipher
+
+**Python · Cryptography Fundamentals**
+
+A text encoding and decoding program based on the Caesar cipher, exploring character shifting, string manipulation, and the fundamentals of classical cryptography.
+
+**Concepts:** Python, strings, encryption logic.
+
+<a href="https://github.com/rohanthanuj06-rgb/CEASER-CIPHER">
+  <img src="https://img.shields.io/badge/VIEW%20REPOSITORY-00C2FF?style=for-the-badge&logo=github&logoColor=black" alt="View Caesar Cipher repository"/>
+</a>
+
+</td>
+<td width="50%" valign="top">
+
+### 📦 Stock Management System
+
+**Application Development**
+
+A stock management project focused on organizing inventory records and exploring the logic behind maintaining and managing stock information.
+
+**Concepts:** Application logic, data organization, inventory workflows.
+
+<a href="https://github.com/rohanthanuj06-rgb/STOCK_MANAGEMENT_SYSTEM">
+  <img src="https://img.shields.io/badge/VIEW%20REPOSITORY-00C2FF?style=for-the-badge&logo=github&logoColor=black" alt="View Stock Management System repository"/>
+</a>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🅿️ Smart Parking System
+
+**Smart Systems · Automation**
+
+A smart parking project exploring how software can help organize parking operations and make parking management more efficient.
+
+**Concepts:** System design, application logic, smart automation.
+
+<a href="https://github.com/rohanthanuj06-rgb/SmartParking-system">
+  <img src="https://img.shields.io/badge/VIEW%20REPOSITORY-00C2FF?style=for-the-badge&logo=github&logoColor=black" alt="View Smart Parking repository"/>
+</a>
+
+</td>
+<td width="50%" valign="top">
+
+### 🔌 IoT Project Sample Codings
+
+**IoT · Programming Practice**
+
+A collection of sample code for exploring IoT-related programming concepts and learning how software interacts with connected systems.
+
+**Concepts:** Programming practice, IoT fundamentals, experimentation.
+
+<a href="https://github.com/rohanthanuj06-rgb/IoT_Project_SampleCodings">
+  <img src="https://img.shields.io/badge/VIEW%20REPOSITORY-00C2FF?style=for-the-badge&logo=github&logoColor=black" alt="View IoT samples repository"/>
+</a>
+
+</td>
+</tr>
+</table>
 
 ---
 
-<!-- 7. TOOLS -->
-## 🛠️ Tools I Use
+## `04` — Selected Project Work & Innovation
 
-| Category | Tools |
-|---|---|
-| Development | VS Code, Git, GitHub |
-| Programming | Python, C, Java |
-| Containers | Docker |
-| AI & Data | TODO: tools and libraries actually used |
-| Other | TODO: databases, APIs, frameworks |
+Beyond my public repositories, I have worked on or explored projects that connect software engineering with real-world challenges.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🗺️ AI-Powered Land Record Digitization
+
+**SIH PS 26018**
+
+An intelligent land-record digitization and validation system concept for processing legacy documents using OCR, computer vision, NLP, confidence scoring, duplicate detection, and human verification.
+
+**Focus areas**
+- Document intelligence
+- Data validation and traceability
+- Human-in-the-loop review
+- Secure, auditable workflows
+
+</td>
+<td width="50%" valign="top">
+
+### ☀️ Solar-Powered Smart Mini Cold Storage
+
+**SIH PS 26005**
+
+A simulated smart cold-storage concept for vegetables in the North Eastern Region, combining solar power awareness, temperature and humidity monitoring, battery status, and power-aware cooling modes.
+
+**Focus areas**
+- IoT system simulation
+- Crop-aware monitoring
+- Energy-aware operation
+- Alerts and storage status
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### ☁️ CloudSentinel
+
+**Cloud Computing & Virtualization**
+
+A Docker-based service monitoring and self-recovery platform designed to treat containerized services as VM-like monitored workloads without requiring a separate virtual machine.
+
+**Planned capabilities**
+- CPU, memory, disk and health monitoring
+- Failure detection and health scoring
+- Automated container recovery
+- Recovery verification and incident logs
+
+</td>
+<td width="50%" valign="top">
+
+### 🚗 Predictive Tyre Monitoring System
+
+**TPMS · Embedded Systems**
+
+A predictive tyre-monitoring concept using pressure and temperature trends to identify potentially unsafe conditions before they become critical.
+
+**Focus areas**
+- Pressure and temperature monitoring
+- Trend-based warning logic
+- Sensor and controller simulation
+- Dashboard alerts and status visualization
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🚀 Space Mission Intelligence & Analytics
+
+**Exploratory Data Analysis**
+
+A space-program-inspired analytics concept for exploring historical launch records, space agencies, countries, launch sites, payloads, mission outcomes, and reliability patterns.
+
+**Planned capabilities**
+- Interactive dashboards and visualizations
+- Launch success and risk analysis
+- Clustering and anomaly detection
+- Mission trends and forecasting
+
+</td>
+<td width="50%" valign="top">
+
+### 🤖 Generative AI & Intelligent Applications
+
+**AI · Automation · Software Development**
+
+An area of ongoing interest focused on applying AI to practical software problems, building useful workflows, and exploring how intelligent systems can support human decision-making.
+
+**Focus areas**
+- AI-assisted application development
+- Document and information processing
+- Workflow automation
+- Responsible, practical AI integration
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+**Current direction:** stronger software fundamentals → practical projects → intelligent systems → production-minded engineering.
+
+</div>
+
+*Project status varies: some represent completed or demonstrated prototypes, while others are planned or evolving concepts. Detailed source links will be added as the corresponding repositories become public.*
 
 ---
 
-<!-- 8. CONTRIBUTION GRAPH -->
-## 📈 Contribution Activity
+## `05` — Professional Experience
 
-<p align="center">
-  <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=rohanthanuj06-rgb&theme=tokyo-night&hide_border=true"
-    alt="GitHub contribution activity graph"
-  />
-</p>
+### Generative AI Intern
 
----
+**Menmozhi Technologies Pvt. Ltd. · Trichy**
 
-<!-- 9. VISITOR BADGE -->
-## 👀 Profile Visitors
+*March 2026 – June 2026*
 
-<p align="center">
-  <img
-    src="https://komarev.com/ghpvc/?username=rohanthanuj06-rgb&label=Profile%20Views&color=0e75b6&style=flat"
-    alt="Profile view counter"
-  />
-</p>
+My internship experience focused on Generative AI and gave me an opportunity to explore AI-related development in a professional environment.
+
+- Developed my understanding of practical Generative AI workflows.
+- Explored how AI concepts can be applied to software and problem-solving tasks.
+- Continued building technical confidence through hands-on learning.
+
+*Add specific deliverables, technologies, and measurable outcomes here when you are ready to showcase them.*
 
 ---
 
-<p align="center">
-  <i>Learning continuously. Building consistently. Improving every day.</i>
-</p>
+## `06` — GitHub Analytics
 
-<p align="center">
-  ⭐ Explore my repositories and follow my journey!
-</p>
+<div align="center">
+
+<a href="https://github.com/rohanthanuj06-rgb">
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=rohanthanuj06-rgb&show_icons=true&hide_border=true&bg_color=050816&title_color=00C2FF&icon_color=00C2FF&text_color=E6EDF3&ring_color=00C2FF&include_all_commits=true" alt="GitHub statistics"/>
+</a>
+
+<a href="https://github.com/rohanthanuj06-rgb">
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rohanthanuj06-rgb&layout=compact&langs_count=8&hide_border=true&bg_color=050816&title_color=00C2FF&text_color=E6EDF3" alt="Most used languages on GitHub"/>
+</a>
+
+<br/><br/>
+
+<img src="https://streak-stats.demolab.com?user=rohanthanuj06-rgb&theme=transparent&hide_border=true&background=050816&ring=00C2FF&fire=00C2FF&currStreakLabel=00C2FF&sideLabels=E6EDF3&dates=8B949E" alt="GitHub contribution streak"/>
+
+<br/><br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=rohanthanuj06-rgb&bg_color=050816&color=E6EDF3&line=00C2FF&point=FFFFFF&area=true&hide_border=true&custom_title=Contribution%20Activity" width="98%" alt="GitHub contribution activity graph"/>
+
+</div>
+
+> **Note:** These cards rely on external services and their caches, so they may occasionally load slowly or display incomplete data. Language cards measure repository code composition, not personal proficiency.
+
+---
+
+## `07` — Coding Profiles
+
+<div align="center">
+
+### LeetCode
+
+<a href="https://leetcode.com/u/Rohan_1316/">
+  <img src="https://leetcard.jacoblin.cool/Rohan_1316?theme=dark&font=JetBrains%20Mono&ext=heatmap" width="500" alt="LeetCode statistics for Rohan Thanuj"/>
+</a>
+
+<br/><br/>
+
+<a href="https://leetcode.com/u/Rohan_1316/">
+  <img src="https://img.shields.io/badge/LeetCode-Rohan__1316-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode profile"/>
+</a>
+
+<a href="https://www.hackerrank.com/profile/rohanthanuj06">
+  <img src="https://img.shields.io/badge/HackerRank-View%20Profile-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white" alt="HackerRank profile"/>
+</a>
+
+</div>
+
+I am building consistency in problem-solving and strengthening my programming fundamentals through practice.
+
+---
+
+## `08` — What I'm Working Toward
+
+- [ ] Strengthen Python, C, and Java fundamentals.
+- [ ] Improve data structures and algorithms problem-solving.
+- [ ] Develop and publish more complete, well-documented projects.
+- [ ] Expand my understanding of Docker and cloud-native systems.
+- [ ] Explore practical AI, Generative AI, and document intelligence.
+- [ ] Improve software architecture, testing, and maintainability.
+- [ ] Build a stronger and more consistent open-source presence.
+
+*This checklist is a roadmap; update it as your actual progress changes.*
+
+---
+
+## `09` — Beyond the Code
+
+I believe the strongest developers combine technical skills with curiosity, adaptability, and a willingness to learn.
+
+**What drives me**
+- 🔍 Curiosity — understanding the reasoning behind a solution.
+- ⚡ Adaptability — picking up new concepts and technologies quickly.
+- 🛠️ Practical learning — turning theory into working implementations.
+- 📈 Continuous improvement — learning from mistakes and iterating.
+- 🌐 Real-world impact — using technology to solve meaningful problems.
+
+---
+
+## `10` — Let's Connect
+
+<div align="center">
+
+I'm always interested in connecting with developers, exchanging ideas, exploring new technologies, and collaborating on meaningful projects.
+
+<a href="https://github.com/rohanthanuj06-rgb">
+  <img src="https://img.shields.io/badge/GitHub-Explore%20My%20Work-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+</a>
+<a href="https://www.linkedin.com/in/rohan-thanuj-9b451b352">
+  <img src="https://img.shields.io/badge/LinkedIn-Let's%20Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+</a>
+<a href="https://leetcode.com/u/Rohan_1316/">
+  <img src="https://img.shields.io/badge/LeetCode-Solve%20Together-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"/>
+</a>
+
+<br/><br/>
+
+### `BUILD • LEARN • INNOVATE • REPEAT`
+
+<sub>Thanks for visiting my profile. Every project is another opportunity to learn something new.</sub>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=110&section=footer&color=0:00C2FF,40:123B76,100:050816" width="100%" alt="Blue gradient footer"/>
+
+</div>
