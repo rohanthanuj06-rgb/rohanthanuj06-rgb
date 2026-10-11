@@ -15,7 +15,7 @@
 <br/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=2800&pause=850&color=00C2FF&center=true&vCenter=true&width=750&lines=Third-Year+B.Tech+Information+Technology+Student;Aspiring+Software+Developer;Python+%7C+C+%7C+Java+%7C+MySQL;Exploring+AI%2C+Cloud+Computing+%26+Cybersecurity;Learn+Fast.+Build+Smart.+Keep+Evolving." alt="Animated developer introduction" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=2800&pause=850&color=00C2FF&center=true&vCenter=true&width=750&lines=Third-Year+B.Tech+Information+Technology+Student;Aspiring+Software+Developer;Python+%7C+C+%7C+Java+%7C+MySQL+%7CData Mining Techniques;Exploring+AI%2C+Cloud+Computing+%26+Cybersecurity;Learn+Fast.+Build+Smart.+Keep+Evolving." alt="Animated developer introduction" />
 </a>
 
 <br/><br/>
