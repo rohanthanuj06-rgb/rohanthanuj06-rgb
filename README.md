@@ -1,4 +1,7 @@
 <div align="center">
+  <img src="assets/header.svg" width="100%" alt="Night Sky Observatory">
+</div>
+<div align="center">
 <picture>
   <source media="(prefers-color-scheme: light)" srcset="./assets/header-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="./assets/header.svg">
