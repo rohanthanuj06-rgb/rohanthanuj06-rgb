@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 250">
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1">
+      <stop stop-color="#080d25"/>
+      <stop offset="1" stop-color="#24134b"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="250" rx="18" fill="url(#bg)"/>
+  <g fill="#fff">
+    <circle cx="90" cy="45" r="2"/>
+    <circle cx="220" cy="100" r="2"/>
+    <circle cx="750" cy="55" r="2"/>
+    <circle cx="820" cy="180" r="2"/>
+    <circle cx="600" cy="35" r="2"/>
+    <circle cx="400" cy="205" r="2"/>
+  </g>
+  <circle cx="450" cy="125" r="75" fill="none" stroke="#8b9cff" opacity=".6"/>
+  <circle cx="450" cy="125" r="45" fill="#7357d8" opacity=".25"/>
+  <circle cx="450" cy="125" r="5" fill="#fff"/>
+  <circle r="7" fill="#5ee7ff">
+    <animateMotion dur="7s" repeatCount="indefinite"
+      path="M450 50 A75 75 0 1 1 449.9 50"/>
+  </circle>
+  <text x="450" y="115" fill="#fff" font-size="30"
+    text-anchor="middle" font-family="Arial" font-weight="bold">
+    ROHAN THANUJ
+  </text>
+  <text x="450" y="150" fill="#b9c9ff" font-size="15"
+    text-anchor="middle" font-family="Arial">
+    NIGHT SKY OBSERVATORY
+  </text>
+</svg>
