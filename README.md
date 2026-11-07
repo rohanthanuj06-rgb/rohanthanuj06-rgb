@@ -1,160 +1,242 @@
 <div align="center">
-  <img src="assets/header.svg" width="100%" alt="Night Sky Observatory">
-</div>
-<div align="center">
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="./assets/header-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/header.svg">
-  <img src="./assets/header.svg" alt="Night Sky Observatory — Rohan Thanuj P., IT Student and AI & Software Developer" width="100%">
-</picture>
-<br>
-IT Student · AI & Software Developer
-Building intelligent systems that connect software, data, and the real world.
-![GitHub](https://img.shields.io/badge/GitHub-rohanthanuj06--rgb-101c2c?style=flat-square&logo=github&logoColor=8be9ff)
-![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-101c2c?style=flat-square&logo=linkedin&logoColor=8be9ff)
-</div>
----
-01 / About me
-<table>
-<tr>
-<td width="68%" valign="middle">
-I'm Rohan Thanuj P., a third-year B.Tech Information Technology student at K. Ramakrishnan College of Engineering, graduating in 2027.
-I enjoy exploring the space where software engineering meets applied intelligence. My work spans cloud monitoring, document intelligence, inventory applications, IoT concepts and data-driven problem solving.
-I believe in learning by building: understanding the problem, experimenting with a solution, and improving it through practice.
-Currently focused on: strengthening programming fundamentals, building useful projects, and growing consistently through GitHub, HackerRank and LeetCode.
-</td>
-<td width="32%" align="center" valign="middle">
-<img src="./assets/about-orbit.svg" width="190" alt="An orbiting satellite around a glowing star">
-<br>
-<sub>Curiosity in orbit. Learning in motion.</sub>
-</td>
-</tr>
-</table>
-02 / Skills constellation
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="./assets/skills-orbit-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/skills-orbit.svg">
-  <img src="./assets/skills-orbit.svg" width="100%" alt="Animated skill planets orbiting a central star">
-</picture>
-<details>
-<summary><strong>View the skill map as a static list</strong></summary>
-Area	Skills
-Programming	Python, C, Java
-Data	SQL, Databases, Data Analytics
-Intelligence	Artificial Intelligence, Machine Learning, Generative AI
-Development tools	Git, GitHub, Docker
-Connected systems	IoT, ESP32
-</details>
-03 / Project constellations
-Each project is a small constellation: a problem, a direction, and a working attempt at a solution.
-<table>
-<tr>
-<td width="50%" valign="top">
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="./assets/project-cloudsentinel-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/project-cloudsentinel.svg">
-  <img src="./assets/project-cloudsentinel.svg" width="100%" alt="CloudSentinel constellation">
-</picture>
-CloudSentinel
-Docker-based VM-equivalent health monitoring with fault detection, diagnostics and automated recovery workflows.
-`Python` `React` `Vite` `Docker`
-Repository ↗
-</td>
-<td width="50%" valign="top">
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="./assets/project-landrecords-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/project-landrecords.svg">
-  <img src="./assets/project-landrecords.svg" width="100%" alt="Land record intelligence constellation">
-</picture>
-Intelligent Land Record Digitization
-AI-assisted digitization and validation workflow for legacy land records using document intelligence and human review.
-`OCR` `Computer Vision` `NLP` `AI`
-GitHub profile ↗
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="./assets/project-ptms-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/project-ptms.svg">
-  <img src="./assets/project-ptms.svg" width="100%" alt="Predictive tyre monitoring constellation">
-</picture>
-Predictive Tyre Monitoring System
-Software simulation exploring tyre pressure and temperature trends with predictive safety warnings.
-`Python` `IoT concepts` `ESP32 concepts`
-Repository ↗
-</td>
-<td width="50%" valign="top">
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="./assets/project-stock-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/project-stock.svg">
-  <img src="./assets/project-stock.svg" width="100%" alt="Stock management constellation">
-</picture>
-Stock Management System
-Flask inventory application for products, suppliers, sales, purchases, invoices and stock audits.
-`Python` `Flask` `SQLAlchemy` `SQLite`
-Repository ↗
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="./assets/project-smartparking-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/project-smartparking.svg">
-  <img src="./assets/project-smartparking.svg" width="100%" alt="Smart parking constellation">
-</picture>
-Smart Parking System
-A smart-mobility project exploring connected parking availability and a more guided parking experience.
-`See repository for implementation stack`
-Repository ↗
-</td>
-<td width="50%" valign="top">
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="./assets/project-caesar-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/project-caesar.svg">
-  <img src="./assets/project-caesar.svg" width="100%" alt="Caesar cipher constellation">
-</picture>
-Caesar Cipher
-A Python implementation of classical shift-cipher encoding and decoding, preserving letter case and punctuation.
-`Python`
-Repository ↗
-</td>
-</tr>
-</table>
-04 / Star log
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="./assets/timeline-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/timeline.svg">
-  <img src="./assets/timeline.svg" width="100%" alt="Timeline of internship and learning milestones">
-</picture>
-Generative AI Internship — Menmozhi Technologies Pvt. Ltd. · Mar–Jun 2026
-Microsoft Azure AI-900 — Azure AI fundamentals
-Google Data Analytics — Professional certificate
-NPTEL — Python Software Developer
-NPTEL — Cloud Computing
-NPTEL — Human Resources
-05 / GitHub observatory
-<div align="center">
+
+<img src="assets/header.svg" width="100%" alt="Night Sky Observatory"/>
+
+<h3>✦ WELCOME TO MY UNIVERSE ✦</h3>
+
+<p>
+  <b>Third-Year B.Tech Information Technology Student | Developer | AI Explorer</b>
+</p>
+
+<p>
+  I build intelligent systems that connect software, data, and the real world.
+</p>
+
 <a href="https://github.com/rohanthanuj06-rgb">
-  <img src="https://github-readme-stats.vercel.app/api?username=rohanthanuj06-rgb&show_icons=true&hide_border=true&bg_color=0b1424&title_color=72e6ff&icon_color=72e6ff&text_color=d7e2ef&ring_color=72e6ff&include_all_commits=true" height="165" alt="GitHub statistics for Rohan Thanuj">
+  <img src="https://img.shields.io/badge/GitHub-Explore%20My%20Universe-111827?style=for-the-badge&logo=github"/>
 </a>
-<br>
-<sub>If the live statistics service is unavailable, your repositories and profile remain accessible from the links above.</sub>
+<a href="https://www.linkedin.com/in/rohan-thanuj-9b451b352">
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin"/>
+</a>
+
 </div>
-06 / Find me beyond the stars
+
+---
+
+## 🌌 01. About the Explorer
+
+Hello! I'm **Rohan Thanuj P.**, an Information Technology student at **K. Ramakrishnan College of Engineering**, graduating in 2027.
+
+I'm a curious and practical learner interested in building software solutions and exploring emerging technologies.
+
+- 🎓 B.Tech Information Technology — KRCE
+- 💻 Interested in Software Development and Artificial Intelligence
+- 🧠 Exploring Machine Learning and Generative AI
+- 🔭 Interested in connecting software with real-world applications
+- 🚀 Learning through experimentation, projects, and problem-solving
+
+> "Stay curious. Explore further. Build something extraordinary."
+
+---
+
+## 🪐 02. My Technology Universe
+
+### Programming Languages
+
+<p>
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white"/>
+<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
+</p>
+
+### Tools & Technologies
+
+<p>
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+<img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
+<img src="https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white"/>
+</p>
+
+### Domains of Interest
+
+<p>
+<img src="https://img.shields.io/badge/Artificial%20Intelligence-8A2BE2?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Machine%20Learning-FF6F00?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Generative%20AI-7B61FF?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Internet%20of%20Things-008080?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Data%20Analytics-00A86B?style=for-the-badge"/>
+</p>
+
+---
+
+## 🚀 03. Featured Missions — Projects
+
+*Every project is a new mission. Every challenge is an opportunity to discover something.*
+
+### ☁️ 01. CloudSentinel
+
+**Intelligent VM Health Monitoring, Failure Detection and Self-Recovery Platform**
+
+A Docker-based cloud monitoring project that simulates virtual machine environments and monitors their health.
+
+- Health monitoring and scoring
+- Failure detection and diagnostics
+- Automated recovery and restart
+- Monitoring dashboard and reports
+
+**Technologies:** Python, Docker, React, Vite, Firebase / Local Fallback
+
+[![Explore](https://img.shields.io/badge/EXPLORE%20PROJECT-CloudSentinel-635BDB?style=for-the-badge)](https://github.com/rohanthanuj06-rgb/CLOUD_SENTINEL)
+
+---
+
+### 📜 02. AI-Powered Land Record Digitization
+
+**AI-powered Intelligent Land Record Digitization and Validation System**
+
+An intelligent document processing solution designed to digitize and validate land records.
+
+- OCR-based document extraction
+- Computer vision and NLP
+- Indian-language document processing
+- Duplicate detection and validation
+- Human review and verification workflows
+
+**Technologies:** AI, OCR, Computer Vision, NLP, Data Validation
+
+[![Explore](https://img.shields.io/badge/EXPLORE%20PROJECT-Land%20Records-635BDB?style=for-the-badge)](https://github.com/rohanthanuj06-rgb)
+
+---
+
+### 🚗 03. Predictive Tyre Monitoring System
+
+**Predictive Tyre Monitoring System (PTMS)**
+
+A software simulation of a tyre monitoring system that explores pressure and temperature trends to generate predictive safety warnings.
+
+- Tyre pressure monitoring simulation
+- Temperature monitoring
+- Warning and alert visualization
+- Predictive safety concepts
+
+**Technologies:** Python, IoT Concepts, ESP32 Concepts, Simulation
+
+[![Explore](https://img.shields.io/badge/EXPLORE%20PROJECT-PTMS-635BDB?style=for-the-badge)](https://github.com/rohanthanuj06-rgb/PREDICTIVE-TYRE-PRESSURE-MONITORING-SYSTEM-PTMS-)
+
+---
+
+### 📦 04. Stock Management System
+
+A Flask-based inventory management application.
+
+- Product management
+- Supplier management
+- Sales and purchase tracking
+- Invoice management
+- Stock auditing
+
+**Technologies:** Python, Flask, SQL / Database
+
+[![Explore](https://img.shields.io/badge/EXPLORE%20PROJECT-Stock%20Management-635BDB?style=for-the-badge)](https://github.com/rohanthanuj06-rgb/STOCK_MANAGEMENT_SYSTEM)
+
+---
+
+### 🅿️ 05. Smart Parking System
+
+A smart mobility project focused on parking management.
+
+[![Explore](https://img.shields.io/badge/EXPLORE%20PROJECT-Smart%20Parking-635BDB?style=for-the-badge)](https://github.com/rohanthanuj06-rgb/SmartParking-system)
+
+---
+
+### 🔐 06. Caesar Cipher
+
+A Python implementation of the classical Caesar substitution cipher.
+
+- Character shifting
+- Encryption and decryption concepts
+- Basic cryptography
+
+[![Explore](https://img.shields.io/badge/EXPLORE%20PROJECT-Caesar%20Cipher-635BDB?style=for-the-badge)](https://github.com/rohanthanuj06-rgb/CEASER-CIPHER)
+
+---
+
+## 🛰️ 04. Professional Journey
+
+### Generative AI Intern
+
+**Menmozhi Technologies Pvt. Ltd. — Trichy**
+
+`March 2026 – June 2026`
+
+- Worked alongside AI/ML professionals.
+- Learned the implementation of automation services.
+- Gained hands-on experience with Generative AI concepts and practical workflows.
+
+---
+
+## 🏅 05. Certifications & Achievements
+
+| Certification | Organization |
+|---|---|
+| Azure AI Fundamentals (AI-900) | Microsoft |
+| Google Data Analytics | Google |
+| Python Software Developer | NPTEL |
+| Cloud Computing | NPTEL |
+| Human Resources | NPTEL |
+
+---
+
+## 📡 06. GitHub Observatory
+
 <div align="center">
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="./assets/footer-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/footer.svg">
-  <img src="./assets/footer.svg" width="100%" alt="A glowing horizon beneath a night sky">
-</picture>
-<br>
-GitHub  · 
-LinkedIn
-<br><br>
-<a href="https://rohanthanuj06-rgb.github.io/developers-room-portfolio/">
-  <img src="https://img.shields.io/badge/ENTER_MY_3D_ROOM-Explore_the_portfolio-102338?style=for-the-badge&logo=three.js&logoColor=8be9ff&labelColor=07111f" alt="Enter my 3D room">
+
+<a href="https://github.com/rohanthanuj06-rgb">
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=rohanthanuj06-rgb&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true" alt="GitHub statistics"/>
 </a>
-<br><br>
-<sub>Thanks for stargazing through my work. More constellations are still being built.</sub>
+
+<a href="https://github.com/rohanthanuj06-rgb">
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rohanthanuj06-rgb&layout=compact&theme=tokyonight&hide_border=true" alt="Most used languages"/>
+</a>
+
+<br/>
+
+<img src="https://streak-stats.demolab.com?user=rohanthanuj06-rgb&theme=tokyonight&hide_border=true" alt="GitHub contribution streak"/>
+
+</div>
+
+---
+
+## 🌠 07. Current Mission
+
+- 📚 Strengthening Python, Java, and C programming.
+- 🧩 Practicing problem-solving on HackerRank and LeetCode.
+- 🛠️ Developing practical software projects.
+- 🌌 Exploring Artificial Intelligence and intelligent systems.
+- 📈 Building consistency through regular coding and GitHub contributions.
+
+---
+
+## 🤝 08. Connect With Me
+
+<div align="center">
+
+<a href="https://github.com/rohanthanuj06-rgb">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<a href="https://www.linkedin.com/in/rohan-thanuj-9b451b352">
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<br/><br/>
+
+### ✦ THANKS FOR VISITING MY OBSERVATORY ✦
+
+*The universe is vast. There is always something new to learn.*
+
+**Stay curious. Keep building. Never stop exploring.** 🚀
+
 </div>
