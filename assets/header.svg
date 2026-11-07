@@ -1,40 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-     xmlns:xlink="http://www.w3.org/1999/xlink"
-     viewBox="0 0 1200 430">
-
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 460">
   <defs>
-    <linearGradient id="space" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#02040e"/>
-      <stop offset="48%" stop-color="#10152f"/>
-      <stop offset="100%" stop-color="#08091b"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#02040d"/>
+      <stop offset=".5" stop-color="#10132d"/>
+      <stop offset="1" stop-color="#030712"/>
     </linearGradient>
 
-    <radialGradient id="nebula">
-      <stop offset="0%" stop-color="#a34dff" stop-opacity=".65"/>
-      <stop offset="40%" stop-color="#5036c9" stop-opacity=".28"/>
-      <stop offset="100%" stop-color="#08091b" stop-opacity="0"/>
+    <radialGradient id="purpleNebula">
+      <stop stop-color="#b45cff" stop-opacity=".75"/>
+      <stop offset=".45" stop-color="#6237c7" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#080b20" stop-opacity="0"/>
     </radialGradient>
 
     <radialGradient id="blueNebula">
-      <stop offset="0%" stop-color="#39c6ff" stop-opacity=".5"/>
-      <stop offset="100%" stop-color="#10152f" stop-opacity="0"/>
+      <stop stop-color="#38caff" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#080b20" stop-opacity="0"/>
     </radialGradient>
 
     <radialGradient id="planet">
-      <stop offset="0%" stop-color="#d4e7ff"/>
-      <stop offset="35%" stop-color="#648bbf"/>
-      <stop offset="75%" stop-color="#263b71"/>
-      <stop offset="100%" stop-color="#080d24"/>
+      <stop stop-color="#d7ecff"/>
+      <stop offset=".25" stop-color="#7199ce"/>
+      <stop offset=".7" stop-color="#304b82"/>
+      <stop offset="1" stop-color="#10182f"/>
     </radialGradient>
 
-    <radialGradient id="blackhole">
-      <stop offset="0%" stop-color="#000"/>
-      <stop offset="48%" stop-color="#000"/>
-      <stop offset="55%" stop-color="#5b35c9"/>
-      <stop offset="65%" stop-color="#f4b8ff"/>
-      <stop offset="72%" stop-color="#5c8fff"/>
-      <stop offset="100%" stop-color="#17102f" stop-opacity="0"/>
-    </radialGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#fff1d6" stop-opacity=".1"/>
+      <stop offset=".4" stop-color="#b6cfff"/>
+      <stop offset=".7" stop-color="#d6aaff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity=".1"/>
+    </linearGradient>
+
+    <linearGradient id="cometTrail">
+      <stop stop-color="#83eaff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
 
     <filter id="glow">
       <feGaussianBlur stdDeviation="5" result="blur"/>
@@ -44,145 +44,202 @@
       </feMerge>
     </filter>
 
-    <filter id="soft">
-      <feGaussianBlur stdDeviation="22"/>
+    <filter id="cloudBlur">
+      <feGaussianBlur stdDeviation="30"/>
     </filter>
 
-    <linearGradient id="comet" x1="0" x2="1">
-      <stop offset="0%" stop-color="#8ceaff" stop-opacity="0"/>
-      <stop offset="100%" stop-color="#ffffff"/>
-    </linearGradient>
+    <filter id="strongGlow">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
 
-  <!-- Deep space -->
-  <rect width="1200" height="430" fill="url(#space)"/>
+  <!-- Deep-space background -->
+  <rect width="1200" height="460" fill="url(#bg)"/>
 
-  <!-- Nebula clouds -->
-  <ellipse cx="260" cy="170" rx="330" ry="190"
-           fill="url(#nebula)" filter="url(#soft)">
+  <!-- Distant nebulae -->
+  <ellipse cx="260" cy="180" rx="340" ry="210"
+           fill="url(#purpleNebula)" filter="url(#cloudBlur)">
     <animate attributeName="opacity"
-             values=".55;.9;.55" dur="12s"
+             values=".55;.95;.55" dur="18s"
              repeatCount="indefinite"/>
   </ellipse>
 
-  <ellipse cx="900" cy="300" rx="340" ry="180"
-           fill="url(#blueNebula)" filter="url(#soft)">
+  <ellipse cx="850" cy="350" rx="390" ry="190"
+           fill="url(#blueNebula)" filter="url(#cloudBlur)">
     <animate attributeName="opacity"
-             values=".5;.85;.5" dur="15s"
+             values=".45;.8;.45" dur="22s"
              repeatCount="indefinite"/>
   </ellipse>
 
-  <!-- Distant galaxy -->
-  <g transform="translate(850 110)" opacity=".65">
-    <ellipse rx="115" ry="32" fill="none"
-             stroke="#a5aaff" stroke-width="2"
-             opacity=".5" transform="rotate(-25)"/>
-    <ellipse rx="85" ry="22" fill="none"
-             stroke="#d3aaff" stroke-width="4"
-             opacity=".5" transform="rotate(-25)"/>
-    <circle r="13" fill="#fff" filter="url(#glow)"/>
+  <ellipse cx="600" cy="50" rx="260" ry="110"
+           fill="url(#purpleNebula)" filter="url(#cloudBlur)"
+           opacity=".35"/>
+
+  <!-- Distant stars -->
+  <g fill="#fff">
+    <circle cx="40" cy="40" r="1.5"/>
+    <circle cx="105" cy="120" r="1"/>
+    <circle cx="180" cy="35" r="1.5"/>
+    <circle cx="250" cy="390" r="1.2"/>
+    <circle cx="330" cy="80" r="1"/>
+    <circle cx="420" cy="35" r="1.4"/>
+    <circle cx="520" cy="390" r="1"/>
+    <circle cx="650" cy="60" r="1.5"/>
+    <circle cx="730" cy="400" r="1.3"/>
+    <circle cx="820" cy="40" r="1"/>
+    <circle cx="930" cy="170" r="1.4"/>
+    <circle cx="1080" cy="80" r="1.3"/>
+    <circle cx="1160" cy="390" r="1.5"/>
+    <circle cx="1120" cy="230" r="1"/>
+    <circle cx="75" cy="300" r="1.3"/>
+  </g>
+
+  <!-- Twinkling stars -->
+  <g fill="#dceaff" filter="url(#glow)">
+    <circle cx="150" cy="220" r="2">
+      <animate attributeName="opacity"
+               values=".15;1;.15" dur="3.2s"
+               repeatCount="indefinite"/>
+    </circle>
+    <circle cx="385" cy="300" r="2">
+      <animate attributeName="opacity"
+               values="1;.2;1" dur="4.5s"
+               repeatCount="indefinite"/>
+    </circle>
+    <circle cx="700" cy="120" r="2">
+      <animate attributeName="opacity"
+               values=".2;1;.2" dur="2.8s"
+               repeatCount="indefinite"/>
+    </circle>
+    <circle cx="970" cy="65" r="2">
+      <animate attributeName="opacity"
+               values="1;.2;1" dur="5s"
+               repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1120" cy="300" r="2">
+      <animate attributeName="opacity"
+               values=".2;1;.2" dur="3.8s"
+               repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Distant spiral galaxy -->
+  <g transform="translate(870 105)" opacity=".7">
+    <ellipse rx="95" ry="27" fill="none"
+             stroke="#b7a5ff" stroke-width="2"
+             transform="rotate(-25)"/>
+    <ellipse rx="68" ry="19" fill="none"
+             stroke="#e5b8ff" stroke-width="3"
+             transform="rotate(-25)" opacity=".7"/>
+    <ellipse rx="38" ry="10" fill="none"
+             stroke="#ffffff" stroke-width="2"
+             transform="rotate(-25)" opacity=".8"/>
+    <circle r="7" fill="#fff" filter="url(#strongGlow)"/>
     <animateTransform attributeName="transform"
-      type="rotate" from="0 850 110"
-      to="360 850 110" dur="100s"
+      type="rotate" from="0 870 105"
+      to="360 870 105" dur="100s"
       repeatCount="indefinite"/>
   </g>
 
-  <!-- Black hole -->
-  <g transform="translate(1040 290)">
-    <circle r="95" fill="url(#blackhole)" filter="url(#glow)"/>
-    <ellipse rx="85" ry="22" fill="none"
-             stroke="#b9a4ff" stroke-width="3"
-             transform="rotate(-20)" opacity=".8"/>
-    <ellipse rx="100" ry="28" fill="none"
-             stroke="#ffb7f4" stroke-width="2"
-             transform="rotate(-20)" opacity=".5"/>
-    <circle r="35" fill="#02020a"/>
+  <!-- Ringed planet -->
+  <g transform="translate(175 320)">
+    <ellipse rx="115" ry="25" fill="none"
+             stroke="url(#ring)" stroke-width="10"
+             transform="rotate(-18)" opacity=".75"/>
+    <circle r="65" fill="url(#planet)"/>
+    <path d="M-50 -18 Q-10 -45 48 -20"
+          stroke="#e1f1ff" stroke-width="5"
+          opacity=".2" fill="none"/>
+    <path d="M-48 20 Q0 0 52 22"
+          stroke="#182d54" stroke-width="8"
+          opacity=".5" fill="none"/>
+    <ellipse rx="115" ry="25" fill="none"
+             stroke="#d8e6ff" stroke-width="2"
+             transform="rotate(-18)" opacity=".35"/>
   </g>
 
-  <!-- Planet -->
-  <g transform="translate(180 300)">
-    <circle r="57" fill="url(#planet)"/>
-    <path d="M-50 -10 Q-10 -35 48 -8"
-          fill="none" stroke="#d7eaff"
-          opacity=".22" stroke-width="5"/>
-    <ellipse rx="90" ry="17" fill="none"
-             stroke="#a6c8ff" stroke-width="3"
-             transform="rotate(-18)" opacity=".6"/>
-    <ellipse rx="100" ry="19" fill="none"
-             stroke="#ffffff" stroke-width="1"
-             transform="rotate(-18)" opacity=".3"/>
+  <!-- Black hole and luminous accretion disk -->
+  <g transform="translate(1040 310)">
+    <ellipse rx="120" ry="37" fill="none"
+             stroke="#9c69ff" stroke-width="18"
+             opacity=".16" filter="url(#strongGlow)"
+             transform="rotate(-17)"/>
+
+    <ellipse rx="105" ry="29" fill="none"
+             stroke="#ffb8ed" stroke-width="5"
+             opacity=".9" filter="url(#glow)"
+             transform="rotate(-17)"/>
+
+    <ellipse rx="88" ry="22" fill="none"
+             stroke="#83caff" stroke-width="3"
+             opacity=".8" transform="rotate(-17)"/>
+
+    <circle r="48" fill="#000008"/>
+    <circle r="42" fill="#000" />
   </g>
 
-  <!-- Stars -->
-  <g fill="#fff">
-    <circle cx="60" cy="45" r="1.5"/>
-    <circle cx="110" cy="180" r="1.2"/>
-    <circle cx="220" cy="65" r="1.7"/>
-    <circle cx="310" cy="320" r="1.4"/>
-    <circle cx="400" cy="80" r="1.2"/>
-    <circle cx="530" cy="40" r="1.5"/>
-    <circle cx="650" cy="350" r="1.4"/>
-    <circle cx="750" cy="55" r="1.5"/>
-    <circle cx="920" cy="200" r="1.3"/>
-    <circle cx="1130" cy="80" r="1.5"/>
-    <circle cx="1150" cy="360" r="1.2"/>
-
-    <circle cx="350" cy="130" r="2">
-      <animate attributeName="opacity"
-        values=".2;1;.2" dur="3s"
-        repeatCount="indefinite"/>
-    </circle>
-
-    <circle cx="700" cy="190" r="2">
-      <animate attributeName="opacity"
-        values="1;.15;1" dur="4s"
-        repeatCount="indefinite"/>
-    </circle>
-
-    <circle cx="970" cy="50" r="2">
-      <animate attributeName="opacity"
-        values=".1;1;.1" dur="5s"
-        repeatCount="indefinite"/>
-    </circle>
-  </g>
-
-  <!-- Shooting comet -->
+  <!-- Moving comet -->
   <g>
-    <path d="M0 0 L150 0" stroke="url(#comet)"
+    <path d="M-150 0 L0 0"
+          stroke="url(#cometTrail)"
           stroke-width="3" stroke-linecap="round"/>
-    <animateMotion dur="8s" repeatCount="indefinite"
-      path="M-150 120 L1300 -80"/>
+    <circle cx="0" cy="0" r="3"
+            fill="#fff" filter="url(#glow)"/>
+    <animateMotion dur="9s" repeatCount="indefinite"
+      path="M-180 130 L1350 -80"/>
   </g>
 
-  <!-- Main title -->
-  <g text-anchor="middle" font-family="Arial,sans-serif">
-    <text x="600" y="185"
-      fill="#ffffff" font-size="49"
-      font-weight="bold" letter-spacing="8"
-      filter="url(#glow)">
+  <!-- Second small shooting star -->
+  <g>
+    <path d="M-80 0 L0 0"
+          stroke="url(#cometTrail)" stroke-width="2"/>
+    <circle r="2" fill="#fff"/>
+    <animateMotion dur="13s" begin="3s"
+      repeatCount="indefinite"
+      path="M-100 340 L1300 170"/>
+  </g>
+
+  <!-- Central observatory typography -->
+  <g text-anchor="middle" font-family="Arial, sans-serif">
+    <text x="600" y="190"
+          fill="#ffffff" font-size="52"
+          font-weight="bold" letter-spacing="9"
+          filter="url(#glow)">
       ROHAN THANUJ
     </text>
 
-    <text x="600" y="225"
-      fill="#a9c8ff" font-size="17"
-      letter-spacing="6">
+    <text x="600" y="232"
+          fill="#b8c9ff" font-size="17"
+          letter-spacing="7">
       NIGHT SKY OBSERVATORY
     </text>
 
-    <text x="600" y="260"
-      fill="#d7d8ee" font-size="13"
-      letter-spacing="3">
-      SOFTWARE • ARTIFICIAL INTELLIGENCE • INNOVATION
+    <path d="M400 255 H800"
+          stroke="#8e9dff" stroke-width="1"
+          opacity=".6"/>
+
+    <text x="600" y="284"
+          fill="#d9e7ff" font-size="13"
+          letter-spacing="3">
+      SOFTWARE  •  ARTIFICIAL INTELLIGENCE  •  INNOVATION
+    </text>
+
+    <text x="600" y="420"
+          fill="#a7b6db" font-size="10"
+          letter-spacing="4" opacity=".7">
+      EXPLORING THE UNKNOWN, ONE LINE OF CODE AT A TIME
     </text>
   </g>
 
-  <!-- Animated orbital satellite -->
+  <!-- Satellite moving around the observatory -->
   <g>
-    <circle cx="0" cy="0" r="5"
-            fill="#ffffff" filter="url(#glow)"/>
-    <circle cx="0" cy="0" r="2" fill="#55dcff"/>
-    <animateMotion dur="18s" repeatCount="indefinite"
-      path="M600 70 A140 140 0 1 1 599.9 70"/>
+    <circle r="5" fill="#fff" filter="url(#glow)"/>
+    <circle r="2" fill="#5ce6ff"/>
+    <animateMotion dur="20s" repeatCount="indefinite"
+      path="M600 40 A170 170 0 1 1 599.9 40"/>
   </g>
-
 </svg>
